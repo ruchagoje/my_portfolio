@@ -45,10 +45,10 @@ const Contact = () => {
     {
       name: "Email",
       icon: <FiMail className="text-2xl" />,
-      href: "mailto:your.email@example.com",
+      href: "mailto:ruchagoje@gmail.com",
       color: "from-[#4B79A1] to-[#283E51]",
       description: "Direct professional contact",
-      username: "your.email@example.com",
+      username: "ruchagoje@gmail.com",
       stats: "Direct Contact",
     },
   ];

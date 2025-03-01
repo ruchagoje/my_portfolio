@@ -232,6 +232,7 @@ const Navbar = () => {
                     </motion.a>
                   ))}
                 </div>
+            
                 <motion.button
                   whileTap={{ scale: 0.95 }}
                   className="w-full mt-2 flex items-center justify-center space-x-2 bg-gradient-to-r from-primary to-secondary text-white px-4 py-2 rounded-full text-sm font-medium"
@@ -239,6 +240,7 @@ const Navbar = () => {
                   <FiDownload size={16} />
                   <span>Download Resume</span>
                 </motion.button>
+
               </div>
             </motion.div>
           )}
@@ -249,3 +251,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

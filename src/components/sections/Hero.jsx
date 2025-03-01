@@ -112,14 +112,16 @@ const Hero = () => {
 
               {/* CTA Buttons */}
               <div className="flex flex-wrap gap-4">
-                <motion.button
+              <motion.a
+                  href="/Rucha_Analyst_Resume.pdf" // Path to the file inside public folder
+                  download="Rucha_Resume.pdf" // Name for the downloaded file
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-xl font-medium shadow-lg shadow-primary/25 hover:shadow-xl transition-all duration-200"
                 >
                   <FiDownload className="text-xl" />
                   Download Resume
-                </motion.button>
+                </motion.a>
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}

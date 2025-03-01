@@ -48,7 +48,7 @@ const About = () => {
     {
       name: "Programming",
       icon: <BsCodeSlash className="text-2xl" />,
-      details: ["Python", "Pandas", "NumPy", "Matplotlib"],
+      details: ["Python","SQL", "Pandas", "NumPy", "Matplotlib","Seaborn"],
       color: "from-primary via-secondary to-primary",
     },
   ];
@@ -240,6 +240,9 @@ const About = () => {
                     "Tableau",
                     "Power BI",
                     "Pandas",
+                    "Numpy",
+                    "Matplotlib",
+                    "Seaborn",
                     "Excel",
                     "Statistics",
                     "Data Modeling",

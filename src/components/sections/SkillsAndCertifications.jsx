@@ -44,7 +44,7 @@ const SkillsAndCertifications = () => {
       id: 2,
       name: "Data Visualization",
       icon: <BiBarChartAlt2 className="text-2xl" />,
-      level: "Basic",
+      level: "Intermediate",
       description:
         "Creating basic dashboards and visual representations of data to communicate insights effectively.",
       tools: ["Tableau", "Power BI", "Excel Charts"],
@@ -76,7 +76,7 @@ const SkillsAndCertifications = () => {
     {
       name: "Python",
       icon: <BiCodeAlt className="text-2xl" />,
-      proficiency: 55,
+      proficiency: 65,
       experience: "4 months",
       description: "Basic data analysis with Pandas",
       color: "from-blue-500 to-indigo-500",
@@ -110,13 +110,43 @@ const SkillsAndCertifications = () => {
   const certifications = [
     {
       id: 1,
-      name: "Google Data Analytics",
-      issuer: "Google",
-      date: "2023",
+      name: "Python for Data Science",
+      issuer: "NPTEL-SWAYAM",
+      date: "2024",
       icon: <FiAward className="text-2xl" />,
-      skills: ["Data Analysis", "SQL", "R Programming", "Tableau"],
+      skills: ["Python", "Matplot", "Seaborn", "Pandas", "Numpy"],
       color: "from-blue-500 to-cyan-500",
-      image: "images/certifications/Google_data_analytics.jpg", // Add your image path here
+      image: "images/certifications/nptel.png", // Add your image path here
+    },
+    {
+      id: 1,
+      name: "Getting Started with Data Analytics on AWS",
+      issuer: "AWS",
+      date: "Sep 4th, 2024",
+      icon: <FiAward className="text-2xl" />,
+      skills: ["Data Analysis"],
+      color: "from-blue-500 to-cyan-500",
+      image: "images/certifications/AWS.jpeg", // Add your image path here
+    },
+    {
+      id: 1,
+      name: "SQL and Relational Databases 101",
+      issuer: "IBM",
+      date: "Aug 13, 2024",
+      icon: <FiAward className="text-2xl" />,
+      skills: ["SQL"],
+      color: "from-blue-500 to-cyan-500",
+      image: "images/certifications/sql_ibm.png", // Add your image path here
+    },
+    {
+      id: 1,
+      name: "Data Analytics Job Simulation",
+      issuer: "Deloitte",
+      date: "Febraury 22nd, 2025",
+      icon: <FiAward className="text-2xl" />,
+      skills: ["Data Analysis", "Excel", "Tableau"],
+      color: "from-blue-500 to-cyan-500",
+      image: "images/certifications/deloitte.png", // Add your image path here
     },
     // Add more certifications as needed
   ];
