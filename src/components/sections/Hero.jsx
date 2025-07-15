@@ -113,7 +113,7 @@ const Hero = () => {
               {/* CTA Buttons */}
               <div className="flex flex-wrap gap-4">
               <motion.a
-                  href="/Rucha_Analyst_Resume.pdf" // Path to the file inside public folder
+                  href="/Rucha_goje_Resume_2025.pdf" // Path to the file inside public folder
                   download="Rucha_Resume.pdf" // Name for the downloaded file
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}

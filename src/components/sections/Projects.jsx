@@ -52,66 +52,67 @@ const Projects = () => {
   ];
 
   const projects = [
-    {
-      id: 1,
-      title: "Sales Performance Analysis",
-      description:
-        "Analyzed e-commerce sales data to identify trends and provide actionable insights for business growth.",
-      category: ["analysis", "visualization"],
-      tools: ["SQL", "Tableau", "Excel"],
-      stats: {
-        dataPoints: "10K+",
-        insights: "15+",
-        duration: "2 weeks",
-      },
-      keyFindings: [
-        "Identified top-performing products",
-        "Analyzed seasonal trends",
-        "Customer behavior insights",
-        "Revenue growth opportunities",
-      ],
-      color: "from-[#4B79A1] to-[#283E51]",
-      icon: <FiBarChart2 className="text-2xl" />,
-    },
+    // {
+    //   id: 1,
+    //   title: "Sales Performance Analysis",
+    //   description:
+    //     "Analyzed e-commerce sales data to identify trends and provide actionable insights for business growth.",
+    //   category: ["analysis", "visualization"],
+    //   tools: ["SQL", "Tableau", "Excel"],
+    //   stats: {
+    //     dataPoints: "10K+",
+    //     insights: "15+",
+    //     duration: "2 weeks",
+    //   },
+    //   keyFindings: [
+    //     "Identified top-performing products",
+    //     "Analyzed seasonal trends",
+    //     "Customer behavior insights",
+    //     "Revenue growth opportunities",
+    //   ],
+    //   color: "from-[#4B79A1] to-[#283E51]",
+    //   icon: <FiBarChart2 className="text-2xl" />,
+    // },
     {
       id: 2,
-      title: "Customer Segmentation Dashboard",
+      title: "HR Resources Dashboard",
       description:
-        "Created interactive dashboard for customer segmentation analysis using RFM methodology.",
-      category: ["dashboards", "visualization"],
-      tools: ["Power BI", "Python", "Excel"],
+      "Developed an interactive HR dashboard to track attrition, attendance, and hiring trends, automating data workflows and improving reporting efficiency by 40%.",
+    category: ["dashboards", "visualization"],
+      tools: ["Power BI", "SQL"],
       stats: {
         dataPoints: "5K+",
         segments: "4",
         duration: "3 weeks",
       },
       keyFindings: [
-        "Identified key customer segments",
-        "Created interactive filters",
-        "Purchasing pattern analysis",
-        "Segment-wise recommendations",
-      ],
+  "Detected high attrition in specific departments",
+  "Revealed seasonal trends in employee attendance",
+  "Highlighted recruitment peaks and gaps",
+  "Enabled real-time HR performance tracking",
+],
+
       color: "from-[#764BA2] to-[#667EEA]",
       icon: <FiPieChart className="text-2xl" />,
     },
     {
       id: 3,
-      title: "Inventory Analysis",
+      title: "Exploratory Data Analysis",
       description:
-        "Analyzed inventory data to optimize stock levels and reduce holding costs.",
-      category: ["analysis"],
-      tools: ["SQL", "Excel", "Python"],
+"Performed exploratory data analysis to uncover patterns, outliers, and trends, enhancing business insights through clear visual storytelling.",      category: ["analysis"],
+      tools: ["Python", "Pandas", "Seaborn"],
       stats: {
         dataPoints: "8K+",
         categories: "12",
         duration: "2 weeks",
       },
-      keyFindings: [
-        "Stock optimization insights",
-        "Seasonal patterns",
-        "Cost reduction opportunities",
-        "Reorder point analysis",
-      ],
+     keyFindings: [
+  "Detected outliers impacting overall data distribution",
+  "Uncovered correlations between key business variables",
+  "Identified missing values and resolved data inconsistencies",
+  "Revealed trends that influenced strategic decisions"
+],
+
       color: "from-[#2E3192] to-[#1BFFFF]",
       icon: <FiDatabase className="text-2xl" />,
     },

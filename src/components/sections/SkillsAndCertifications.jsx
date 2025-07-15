@@ -148,6 +148,16 @@ const SkillsAndCertifications = () => {
       color: "from-blue-500 to-cyan-500",
       image: "images/certifications/deloitte.png", // Add your image path here
     },
+    {
+      id: 1,
+      name: "Data Analytics",
+      issuer: "NareshIT-Ameerpet",
+      date: "Feb-May, 2025",
+      icon: <FiAward className="text-2xl" />,
+      skills: ["Data Analytics", "Excel", "Tableau", "Python", "SQL", "Power BI", "Statitics"],
+      color: "from-blue-500 to-cyan-500",
+      image: "images/certifications/nareshit.jpeg", // Add your image path here
+    },
     // Add more certifications as needed
   ];
 

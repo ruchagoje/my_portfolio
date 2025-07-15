@@ -159,14 +159,17 @@ const Navbar = () => {
                 </motion.a>
               ))}
 
-              <motion.button
+              {/* Resume Download Button */}
+              <motion.a
+                href="/resume.pdf"
+                download
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="flex items-center space-x-2 bg-gradient-to-r from-primary to-secondary text-white px-4 py-2 rounded-full text-sm font-medium hover:shadow-lg transition-all duration-200"
               >
                 <FiDownload size={16} />
                 <span>Resume</span>
-              </motion.button>
+              </motion.a>
             </div>
           </div>
 
@@ -218,6 +221,7 @@ const Navbar = () => {
                     {link.name}
                   </motion.a>
                 ))}
+
                 <div className="flex items-center space-x-4 px-3 py-2">
                   {socialLinks.map((link) => (
                     <motion.a
@@ -232,14 +236,19 @@ const Navbar = () => {
                     </motion.a>
                   ))}
                 </div>
-            
-                <motion.button
-                  whileTap={{ scale: 0.95 }}
-                  className="w-full mt-2 flex items-center justify-center space-x-2 bg-gradient-to-r from-primary to-secondary text-white px-4 py-2 rounded-full text-sm font-medium"
-                >
-                  <FiDownload size={16} />
-                  <span>Download Resume</span>
-                </motion.button>
+
+                {/* Mobile Resume Download Button */}
+              <motion.a
+  href="/Rucha_goje_Resume_2025.pdf"
+  download="Rucha_Resume.pdf"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  className="flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-xl font-medium shadow-lg shadow-primary/25 hover:shadow-xl transition-all duration-200"
+>
+  <FiDownload className="text-xl" />
+  Download Resume
+</motion.a>
+
 
               </div>
             </motion.div>
@@ -251,4 +260,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
