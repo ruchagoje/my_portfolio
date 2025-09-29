@@ -142,7 +142,7 @@ const About = () => {
               >
                 <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl border border-text-light/10 dark:border-text-dark/10">
                   <img
-                    src="/images/Rucha_Professional.png"
+                    src="/images/image.png"
                     alt="Rucha Goje"
                     className="w-full aspect-[4/3] object-cover"
                   />
